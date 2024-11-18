@@ -1,0 +1,59 @@
+/* .headerStyle {
+    padding: '10px';
+    background-color: #f4f4f4;
+    border-bottom: '1px solid #ddd';
+    text-align: 'left';
+    font-weight: 'bold'
+  };
+  
+.cellStyle {
+    padding: '10px';
+    border-bottom: '1px solid #ddd'
+  };
+  
+ .limitedCellStyle {
+    padding: '10px';
+    border-bottom: '1px solid #ddd';
+    white-space: 'nowrap';      Hace que no siga mostrando hacia abajo 
+    overflow: 'hidden';        Esconde el texto que sea muy largo 
+    text-overflow: 'ellipsis';  Añade los tres puntos al final, si se pasa 
+    max-width: '450px'        
+  };
+  
+ .rowStyle {
+    cursor: 'pointer';
+    transition: 'background-color 0.3s';
+    background-color: '#fff';
+  }; */
+
+
+/* Hover effect */
+.table-row {
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+.table-row:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+  }
+
+.buttonAgregar {
+    position: relative;
+    bottom: 20px;
+    left: 1100px;
+
+  }
+
+  .loader {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #002855; /*Azul TEC*/
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
